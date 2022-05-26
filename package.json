@@ -2,11 +2,11 @@
   "name": "cms-blog",
   "version": "1.0.1",
   "description": "cms style blog",
-  "main": "server.js",
+  "main": "server ",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js",
-    "start": "node server.js"
+    "seeds": "node seeds/index",
+    "start": "node server"
   },
   "author": "David Sklar",
   "license": "MIT",
