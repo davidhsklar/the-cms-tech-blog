@@ -1,15 +1,15 @@
 {
-  "name": "hacker-news-clone",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cms-blog",
+  "version": "1.0.1",
+  "description": "cms style blog",
   "main": "server.js",
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "David Sklar",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "connect-session-sequelize": "^6.1.1",
