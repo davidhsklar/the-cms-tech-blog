@@ -34,6 +34,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('./controllers/'));
 
-app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
-});
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => {
+    console.log(` server is now active on port ${PORT}!`)
+})});
+
+
