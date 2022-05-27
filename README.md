@@ -43,7 +43,7 @@
   [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Tests
-  You can use 'Jest' but no tests are written
+  You can use 'Jest'
 
   ## Questions?
   https://glacial-wave-42050.herokuapp.com/
